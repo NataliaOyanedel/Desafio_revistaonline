@@ -1,26 +1,46 @@
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 
 body {
     font-family: monospace;
 }
 
-.nav {
+.contenido  {
     width: 960px;
     margin: 0 auto;
 }
 
-.row {
-    width: 960px;
+._menu {
+    width: auto;
     padding: 10px;
     border-bottom: 1px solid gray
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
 }
+
+.nav {
+
+    width: 840px;
+    padding-left: 55%;
+  
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+   
+    
+}
+
+.input-menu {
+    border-radius: 30px;
+}
+
 
